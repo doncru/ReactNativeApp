@@ -15,8 +15,7 @@ class Contact extends Component {
             <ScrollView>
               <Card 
                     title='Contact Information'
-                    wrapperStyle={{margin: 20}}
-                >
+                    wrapperStyle={{margin: 20}}>
                     <text>1 Nucamp Way</text>
                     <text>Seattle, WA 98001</text>
                     <text wrapperStyle={{marginbottom: 20}}>U.S.A.</text>
