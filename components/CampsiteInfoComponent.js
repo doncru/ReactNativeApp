@@ -163,7 +163,7 @@ class CampsiteInfo extends Component {
 								}}
 								leftIconContainerStyle={{ paddingRight: 10 }}
 								onChangeText={(text) =>
-									this.setState({ comment: comments })
+									this.setState({ comment: text })
 								}
 								value={this.state.comment}
 							></Input>
