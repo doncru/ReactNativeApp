@@ -139,6 +139,14 @@ class Reservation extends Component {
                             style={styles.formItem}
                         />
                     )}
+                    <View style={styles.formRow}>
+                        <Button
+                            onPress={() => this.handleReservation()}
+                            title='Search'
+                            color='#5637DD'
+                            accessibilityLabel='Tap me to search for available campsites to reserve'
+                        />
+                    </View>
                 </Animatable.View>
             </ScrollView>
         );
